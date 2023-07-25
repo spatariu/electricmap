@@ -7,15 +7,16 @@ Heatmap Microservice
 - copy the `.env_laradock` file to the `laradock folder` as `.env`
 - go to the `laradock` folder and run `docker-compose up -d nginx mysql phpmyadmin workspace`
 - run `docker ps` to check the name of the workspace container and get inside it with `docker exec -it laradock_workspace_1 bash`
+- run `composer install`
 - run `php artisan migrate:fresh --seed` to init the db
-- run `php artisan passport:install` for the auth service
+- run `php artisan serve` to start the local server
 - install Postman for easily testing the API
 
 ## Test the REST API
 
-### 1. Register an account at http://localhost/api/register setting the required params from the screenshot
+### 1. Get a token http://localhost/api/login setting the required params from the screenshot
 
-![image](https://user-images.githubusercontent.com/3978400/131658133-2d158859-5a30-4b12-9e70-2b646af88784.png)
+![image](https://github.com/spatariu/electricmap/assets/3978400/0a29fa2a-c05f-4c22-953d-e72278445f6e)
 
 ### 2. Login on http://localhost/api/login setting the required params from the screenshot
 

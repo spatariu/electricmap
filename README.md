@@ -16,7 +16,7 @@ Electric stations Microservice
 
 ### 1. Get a token http://localhost/api/login setting the required params from the screenshot
 
-![image](https://github.com/spatariu/electricmap/assets/3978400/c9ebaa36-2768-4ddc-b2db-a64ee6b17c98)
+![image](https://github.com/spatariu/electricmap/assets/3978400/c2e7d542-2179-42a1-a00d-c8704be65ed3)
 
 ### 2. After the login copy the generated token and set it for all the next requests like this:
 

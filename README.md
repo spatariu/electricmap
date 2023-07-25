@@ -1,4 +1,4 @@
-# Heatmap
+# Electric stations map
 Heatmap Microservice
 
 ## Installation:
@@ -16,15 +16,13 @@ Heatmap Microservice
 
 ### 1. Get a token http://localhost/api/login setting the required params from the screenshot
 
-![image](https://github.com/spatariu/electricmap/assets/3978400/0a29fa2a-c05f-4c22-953d-e72278445f6e)
+![image](https://github.com/spatariu/electricmap/assets/3978400/c9ebaa36-2768-4ddc-b2db-a64ee6b17c98)
 
-### 2. Login on http://localhost/api/login setting the required params from the screenshot
+### 2. After the login copy the generated token and set it for all the next requests like this:
 
-![image](https://user-images.githubusercontent.com/3978400/131658672-5bcc66d4-c72e-4449-879b-045a83288584.png)
+![image](https://github.com/spatariu/electricmap/assets/3978400/c66b3b85-4d05-40cc-81db-da8705a7ae03)
 
-### 3. After the login copy the generated token and set it for all the next requests like this:
-
-![register](https://user-images.githubusercontent.com/3978400/131660944-da1dab10-2073-400a-842b-9f227f1433db.jpg)
+![image](https://github.com/spatariu/electricmap/assets/3978400/7547e481-bd02-4e33-9071-c915971c049c)
 
 ### 4. These are the available CRUD endpoints:
 
@@ -38,7 +36,8 @@ Heatmap Microservice
     POST /api/stations: Create a new station
     GET /api/stations/{id}: Get a specific station by ID
     PUT /api/stations/{id}: Update a specific station by ID
-    DELETE /api/stations/{id}: Delete a specific station by ID```
+    DELETE /api/stations/{id}: Delete a specific station by ID
+    GET /api/charging-stations: Get all stations by distance```
 
 ![register](https://user-images.githubusercontent.com/3978400/131661280-4267aff4-107e-4bbe-8e46-da3d15ef1ba4.jpg)
 

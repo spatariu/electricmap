@@ -25,8 +25,8 @@ Heatmap Microservice
 ![image](https://github.com/spatariu/electricmap/assets/3978400/7547e481-bd02-4e33-9071-c915971c049c)
 
 ### 4. These are the available CRUD endpoints:
-
-    `GET /api/companies: Get all companies
+    ```
+    GET /api/companies: Get all companies
     POST /api/companies: Create a new company
     GET /api/companies/{id}: Get a specific company by ID
     PUT /api/companies/{id}: Update a specific company by ID
@@ -37,7 +37,8 @@ Heatmap Microservice
     GET /api/stations/{id}: Get a specific station by ID
     PUT /api/stations/{id}: Update a specific station by ID
     DELETE /api/stations/{id}: Delete a specific station by ID
-    GET /api/charging-stations: Get all stations by distance`
+    GET /api/charging-stations: Get all stations by distance
+    ```
 
 ![register](https://user-images.githubusercontent.com/3978400/131661280-4267aff4-107e-4bbe-8e46-da3d15ef1ba4.jpg)
 

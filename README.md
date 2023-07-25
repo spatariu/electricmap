@@ -1,5 +1,5 @@
 # Electric stations map
-Heatmap Microservice
+Electric stations Microservice
 
 ## Installation:
 - clone the repository and open a terminal for that location
